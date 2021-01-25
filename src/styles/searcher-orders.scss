@@ -1,0 +1,19 @@
+.searcher-order{
+    display: flex;
+    justify-content: space-between;
+
+    &__conteiner {
+        display: flex;
+        align-items: center;
+
+        .conteiner__input{
+            margin-left: 1rem;
+
+            input {
+                margin-left: 0.2rem;
+                color: #b5b5b5;
+            }
+        }
+    }
+   
+}
